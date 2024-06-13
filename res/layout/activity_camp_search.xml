@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_green"
+    tools:context=".CampSearch">
+
+    <TextView
+        android:id="@+id/city_search"
+        android:layout_width="397dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/city"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/state_search"
+        android:layout_width="397dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/state"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <SearchView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/camp_search"
+        android:layout_width="397dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/campground_search"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <SearchView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/navigation_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/black"
+        android:text="@string/home"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/black"
+        android:text="@string/weather"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/black"
+        android:text="@string/maps"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/black"
+        android:text="@string/settings"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ListView
+        android:layout_width="409dp"
+        android:layout_height="250dp"
+        android:background="@color/design_default_color_secondary"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
